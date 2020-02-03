@@ -84,6 +84,24 @@ p{
     border-radius: 20px;
 }
 
+.divsx{
+	width: 50%; float: left;
+}
+.divdx{
+	width: 50%;float: right;
+}
+
+@media only screen and (max-width: 800px) {
+
+.divsx{
+	width: 100%; float:left;
+}
+.divdx{
+	width: 100%; float: right;
+}
+
+}
+
 .Risposta{
 	width: 50%;
 	margin-left: 25%;
