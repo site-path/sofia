@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Psicologico</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+</head>
+<body>
+
+<h1>SOFIA MARIA CAVALLARO</h1>
+<div class="topnav">
+  <div class="myLinks">
+    <a href="index.html">Home</a>
+    <a href="chisono.html">Chi Sono</a>
+    <a href="news.html">News</a>
+</div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+</div>
+<div class="div1">
+	<form name="myForm" id="myForm">
+	    <label>Test Psicologico</label>
+	    <input type="text" name="name" />
+	    <input type="button" value="Conferma" onclick="Conferma()" />
+	    <div id="myid" class="Risposta"></div>
+	</form>
+	<form name="myForm2" id="myForm2">
+	    <label>Test Psicologico</label>
+	    <input type="text" name="name2" />
+	    <input type="button" value="Conferma" onclick="Conferma2()" />
+	    <div id="myid2" class="Risposta"></div>
+	</form>
+	<form name="myForm3" id="myForm3">
+	    <label>Test Psicologico</label>
+	    <input type="text" name="name3" />
+	    <input type="button" value="Conferma" onclick="Conferma3()" />
+	    <div id="myid3" class="Risposta"></div>
+	</form>
+	<form name="myForm4" id="myForm4">
+	    <label>Test Psicologico</label>
+	    <input type="text" name="name4" />
+	    <input type="button" value="Conferma" onclick="Conferma4()" />
+	    <div id="myid4" class="Risposta"></div>
+	</form>
+</div>
+
+<div class="div2">
+	<h1>Altri Test</h1>
+	<a class="link" href="">link</a>
+	<a class="link" href="">link</a>
+	<a class="link" href="">link</a>
+	<a class="link" href="">link</a>
+	<a class="link" href="">link</a>
+	<a class="link" href="">link</a>
+</div>
+
+<div class="div2">
+	<h1>Invia Risultati</h1>
+	<a class="link" href="">link</a>
+</div>
+
+<div class="div2">
+	<h1>Scrivi a Sofia</h1>
+	<a class="link" href="">Contatta</a>
+</div>
+
+<script type="text/javascript">
+	function Conferma(){    
+	   
+	           var name = document.myForm.name.value;
+	           if (name.length == 0) {
+	           		alert("Il campo NOME non e` stato completato");
+	           	}else{
+	           		document.getElementById('myid').innerHTML = '<p>'+name+'</p>'
+	           	}                            
+	}
+   function Conferma2(){    
+	   
+	           var name2 = document.myForm2.name2.value;
+	          if (name2.length == 0) {
+	           		alert("Il campo NOME non e` stato completato");
+	           	}else{
+	           		document.getElementById('myid2').innerHTML = '<p>'+name2+'</p>'
+	           	}      
+	                   
+	}
+	function Conferma3(){    
+	   
+	           var name3 = document.myForm3.name3.value;
+	           if (name3.length == 0) {
+	           		alert("Il campo NOME non e` stato completato");
+	           	}else{
+	           		document.getElementById('myid3').innerHTML = '<p>'+name3+'</p>'
+	           	}                            
+	}
+   function Conferma4(){    
+	   
+	           var name4 = document.myForm4.name4.value;
+	           if (name4.length == 0) {
+	           		alert("Il campo NOME non e` stato completato");
+	           	}else{
+	           		document.getElementById('myid4').innerHTML = '<p>'+name4+'</p>'
+	           	}      
+	                   
+	}
+</script>
+
+
+</body>
+</html>

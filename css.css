@@ -1,0 +1,167 @@
+body{
+	margin: 0%;
+}
+
+h1,h2,h3 {
+	width: 100%;
+	padding-top:  10px;
+	padding-bottom: 10px;
+	text-align: center;
+	float: left;
+
+}
+div{
+	width: 100%; 
+	margin: 0%; 
+	float: left;
+}
+form{
+	width: 90%; 
+	margin-left: 5%;
+	margin-right: 5%;
+	float: left;
+	box-shadow: 0 1px 5px 0 black;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	height: auto;
+	border-radius: 20px;
+}
+input {
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 2%;
+	margin-bottom: 2%
+}
+button{
+    width: 30%;
+	margin-left: 35%;
+	margin-right: 35%;
+	margin-top: 2%;
+	margin-bottom: 2%	
+}
+label{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	margin-top: 2%;
+	margin-bottom: 2%
+}
+p{
+    text-align: center;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	font-size: 20px; 
+}
+.link{
+	text-align: center;
+	border:solid 0.5px black;
+	width: 92%;
+	float: left;
+	margin: 4%;
+    text-decoration:none; 
+    color: green;
+    background-color: lightgreen;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.div1{
+	width: 60%; 
+	margin: 0%;
+	float: left;
+
+}
+.div2{
+	width: 34%; 
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-top: 1%;
+	float: right;
+    box-shadow: 0 1px 5px 0 black;
+    border-radius: 20px;
+}
+
+.Risposta{
+	width: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+	background-color: lightgreen;
+}
+
+.topnav{
+	background-color: green;
+	padding-top: 30px; 
+	padding-bottom: 30px;
+}
+.topnav a {
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: white;
+  font-size: 17px;
+  display: inline-flex;
+}
+.myLinks{
+	text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;	
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+
+.fa-yahoo {
+  background: #430297;
+  color: white;
+}

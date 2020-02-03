@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Test Psicologico</title>
+    <link rel="stylesheet" type="text/css" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.head, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 60px;
+  float: left;
+  text-align: center;
+background-image: url(Foto/F3.jpg);
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+  color: white;
+  font-size: 30px;
+}
+
+</style>
+<body>
+
+<h1>SOFIA MARIA CAVALLARO</h1>
+<div class="topnav">
+  <div class="myLinks">
+  	<a href="index.html">Home</a>
+    <a href="chisono.html">Chi Sono</a>
+    <a href="news.html">News</a>
+</div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+</div>
+
+
+<div class="header">
+  <h1>Psicologia Online</h1>
+  <p>test psicologici</p>
+</div>
+
+
+<input type="text" style="padding-top: 10px; padding-bottom: 10px" id="myInput" onkeyup="myFunction()" placeholder="Cerca test.." title="Type in a name">
+
+<table id="myTable">
+  <tr class="head">
+    <th style="width:60%;"></th>
+    <th style="width:40%;"></th>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  <tr>
+    <td>test</td>
+    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
+  </tr>
+  
+</table>
+
+
+
+<div style="margin-top: 5%; background: #333; padding: 50px;">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-linkedin"></a>
+<a href="#" class="fa fa-youtube"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-skype"></a>
+<a href="#" class="fa fa-yahoo"></a>
+
+</div>
+
+
+<script>
+function myFunction() {
+  var input, filter, table, tr, td, i, txtValue;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  table = document.getElementById("myTable");
+  tr = table.getElementsByTagName("tr");
+  for (i = 0; i < tr.length; i++) {
+    td = tr[i].getElementsByTagName("td")[0];
+    if (td) {
+      txtValue = td.textContent || td.innerText;
+      if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+      } else {
+        tr[i].style.display = "none";
+      }
+    }       
+  }
+}
+</script>
+
+
+
+
+</body>
+</html>
