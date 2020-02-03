@@ -50,11 +50,41 @@ label{
 	margin-bottom: 2%
 }
 p{
-    text-align: center;
+    text-align: left;
 	margin-top: 2%;
+	padding: 50px; 
+	line-height: 1.5;
 	margin-bottom: 2%;
-	font-size: 20px; 
+	font-size: 25px; 
 }
+td{
+	border-bottom: 1px green solid;
+}
+* {
+  box-sizing: border-box;
+}
+
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.head, #myTable tr:hover {
+  background-color: #f1f1f1;
+}
+
 .link{
 	text-align: center;
 	border:solid 0.5px black;
@@ -91,16 +121,6 @@ p{
 	width: 50%;float: right;
 }
 
-@media only screen and (max-width: 800px) {
-
-.divsx{
-	width: 100%; float:left;
-}
-.divdx{
-	width: 100%; float: right;
-}
-
-}
 
 .Risposta{
 	width: 50%;
@@ -122,21 +142,14 @@ p{
   font-size: 17px;
   display: inline-flex;
 }
+
 .myLinks{
 	text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
-
-
+.myInput{
+	padding-top: 10px; padding-bottom: 10px; border: lightgreen solid 3px;text-align: center; border-radius: 4px;
+}
 
 
 .fa {
@@ -183,3 +196,142 @@ p{
   background: #430297;
   color: white;
 }
+
+
+.header {
+  padding: 60px;
+  float: left;
+  text-align: center;
+background-image: url(Foto/F3.jpg);
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+  color: green;
+  font-size: 40px;
+}
+
+@media only screen and (max-width:1000px) {
+    h1,h2,h3 {
+	width: 100%;
+	padding-top:  10px;
+	padding-bottom: 10px;
+	text-align: center;
+	float: left;
+	font-size: 70px;
+
+   }
+   p{
+   	font-size: 40px;
+   }
+	.topnav{
+		background-color: green;
+		padding-top: 50px; 
+		padding-bottom: 50px;
+	}
+	.topnav a {
+	  color: black;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  background-color: white;
+	  font-size: 40px;
+	  display: inline-flex;
+	}
+
+	.myLinks{
+		text-align: center;
+	}
+	.divsx{
+		width: 100%; float:left;
+	}
+	.divdx{
+		width: 100%; float: right;
+	}
+
+
+	.fa {
+	  padding: 30px;
+	  font-size: 50px;
+	  width: 100px;	
+	  text-align: center;
+	  text-decoration: none;
+	  margin: 5px 2px;
+	}
+
+	.fa:hover {
+	    opacity: 0.7;
+	}
+
+	.fa-facebook {
+	  background: #3B5998;
+	  color: white;
+	}
+
+
+	.fa-linkedin {
+	  background: #007bb5;
+	  color: white;
+	}
+
+	.fa-youtube {
+	  background: #bb0000;
+	  color: white;
+	}
+
+	.fa-instagram {
+	  background: #125688;
+	  color: white;
+	}
+
+
+	.fa-skype {
+	  background: #00aff0;
+	  color: white;
+	}
+
+	.fa-yahoo {
+	  background: #430297;
+	  color: white;
+	}
+
+	.link{
+		text-align: center;
+		border:solid 0.5px black;
+		width: 80%;
+		font-size: 60px;
+		float: left;
+		margin: 10%;
+	    text-decoration:none; 
+	    color: green;
+	    background-color: lightgreen;
+	    padding-top: 5px;
+	    padding-bottom: 5px;
+	}
+	td{
+		font-size: 40px;
+	}
+
+	.myInput{
+		padding-top: 30px; padding-bottom: 30px; font-size: 40px;
+	}
+		  /* Header/Logo Title */
+	.header {
+	 padding: 250px;
+	 float: left;
+	 text-align: center;
+	 background-image: url(Foto/F3.jpg);
+	 background-position: center;
+     background-attachment: fixed;
+	 background-repeat: no-repeat;
+	 background-size: cover;
+	 color: green;
+    
+    }
+}
+
+
+
+
+
+
+
