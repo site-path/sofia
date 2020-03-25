@@ -22,6 +22,26 @@
 
 <div class="header">
   <h1>Psicologia Online</h1>
+  <button class="linkmodal" id="myBtn">Contattami</button>
+         <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+                                 
+                  <form action="mailto:walter.cavallaro01@gmail.com" method="post" enctype="text/plain">
+                  Name:<br>
+                  <input type="text" name="name"><br>
+                  E-mail:<br>
+                  <input type="text" name="mail"><br>
+                  Comment:<br>
+                  <input type="text" name="comment" size="50" ><br><br>
+                  <input type="submit" value="Send">
+                  <input type="reset" value="Reset">
+                  </form>
+
+
+            </div>
+          </div>
 </div>
 
 
@@ -33,42 +53,33 @@
     <th style="width:40%;"></th>
   </tr>
   <tr>
-    <td><p>Test psicologico</p></td>
+    <td><p>comportamento</p></td>
     <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
   </tr>
   <tr>
-    <td><p>Test psicologico</p></td>
+    <td><p>capacità relazionale</p></td>
     <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
   </tr>
   <tr>
-    <td><p>Test psicologico</p></td>
+    <td><p>rapporto con i familiari</p></td>
     <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
   </tr>
   <tr>
-    <td><p>Test psicologico</p></td>
+    <td><p>rapporti con amici</p></td>
     <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
   </tr>
   <tr>
-    <td><p>Test psicologico</p></td>
+    <td><p>rapporto con me stesso</p></td>
     <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
   </tr>
   <tr>
-    <td><p>Test psicologico</p></td>
+    <td><p>chi sono?</p></td>
     <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
   </tr>
   <tr>
-    <td><p>Test psicologico</p></td>
+    <td><p>Chi voglio essere</p></td>
     <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
   </tr>
-  <tr>
-    <td><p>Test psicologico</p></td>
-    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
-  </tr>
-  <tr>
-    <td><p>Test psicologico</p></td>
-    <td><a class="link" rel="stylesheet" type="text/css" href="test.html">inizia</td>
-  </tr>
-
 </table>
 
 
@@ -106,6 +117,28 @@ function myFunction() {
 </script>
 
 
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
 
 
 </body>

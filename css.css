@@ -8,7 +8,6 @@ h1,h2,h3 {
 	padding-bottom: 10px;
 	text-align: center;
 	float: left;
-
 }
 div{
 	width: 100%; 
@@ -67,14 +66,17 @@ td{
 
 #myTable {
   border-collapse: collapse;
-  width: 100%;
+  width: 94%;
+  margin-left: 3%;
+  margin-right: 3%;
   border: 1px solid #ddd;
   font-size: 18px;
 }
 
 #myTable th, #myTable td {
   text-align: left;
-  padding: 12px;
+  padding-left: 25px;
+  padding: 20px;
 }
 
 #myTable tr {
@@ -92,7 +94,7 @@ td{
 	float: left;
 	margin: 4%;
     text-decoration:none; 
-    color: green;
+    color: black;
     background-color: lightgreen;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -210,6 +212,100 @@ background-size: cover;
   color: green;
   font-size: 40px;
 }
+
+.headernotizie {
+  padding: 60px;
+  float: left;
+  text-align: center;
+background-image: url(Foto/F1.jpg);
+
+background-attachment: fixed;
+background-repeat: no-repeat;
+background-size: cover;
+  color: green;
+  font-size: 40px;
+}
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  padding-top: 100px; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.linkmodal{
+	text-align: center;
+	border:solid 0.5px black;
+	width: 20%;
+	float: left;
+	margin-left: 40%;
+	margin-right: 40%;
+    text-decoration:none; 
+    color: white;
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0 5px 5px green;
+    cursor: pointer;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 27%;
+  margin: 3.1%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
+
+
+
 
 @media only screen and (max-width:1000px) {
     h1,h2,h3 {
